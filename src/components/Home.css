@@ -1,0 +1,71 @@
+/* src/components/Home.css */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+  height: 150px; /* Define a altura fixa para o banner */
+  width: 100%; /* Define a largura do banner para ocupar todo o espaço horizontal */
+  background-image: url('../assets/banner.jpg'); /* Define a imagem de fundo */
+  background-size: cover; /* Garante que a imagem cubra todo o contêiner */
+  background-position: center; /* Centraliza a imagem */
+  background-repeat: no-repeat; /* Impede a repetição da imagem */
+  color: white; /* Define a cor do texto se necessário */
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none; /* Remove marcadores da lista */
+  padding: 0; /* Remove padding da lista */
+  text-align: center; /* Centraliza o texto da lista */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #0056b3;
+}
+
+/* src/components/Home.css */
+
+/* Adicione estas regras para o layout dos serviços */
+
+ul.services {
+  display: flex; /* Exibe os itens em linha */
+  flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se necessário */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+.service-item {
+  display: flex; /* Flex para alinhamento interno */
+  align-items: center; /* Alinha verticalmente */
+  margin: 60px; /* Espaçamento entre serviços */
+  width: 200px; /* Ajuste a largura conforme necessário */
+  text-align: center; /* Centraliza o texto */
+}
+
+.service-item img {
+  width: 200px; /* Ajuste a largura da imagem */
+  height: 150px; /* Ajuste a altura da imagem */
+  margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
