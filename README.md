@@ -1,4 +1,4 @@
-# Meu Front-end em React
+# Clínica Médica da Família
 
 Este é um projeto que faz parte da disciplina **Desenvolvimento Front-end Avançado** 
 
