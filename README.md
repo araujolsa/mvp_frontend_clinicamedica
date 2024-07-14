@@ -1,8 +1,8 @@
-# Meu Front-end em React
+# Clínica Médica da Família
 
 Este é um projeto que faz parte da disciplina **Desenvolvimento Front-end Avançado** 
 
-O objetivo aqui é ilutsrar o conteúdo apresentado nas aulas com código simples.
+O objetivo aqui é ilustrar o conteúdo apresentado nas aulas com código simples.
 
 Este código é um exemplo simples de uma clínica de consulta médica. 
 
